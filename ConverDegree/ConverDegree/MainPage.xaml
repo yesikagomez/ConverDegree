@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ConverDegree"
+             x:Class="ConverDegree.MainPage">
+
+    <StackLayout Padding="10,30,10,10">
+    <Label 
+        HorizontalOptions="Center"
+        FontSize="Large"
+        Text="Degree Convert" />
+    <Label
+           Text="Degree Celsius:" >
+    </Label>
+        <Entry
+            x:Name="CelsiusEntry"
+            Placeholder="Enter degree celsius...">
+    </Entry>
+    <Button
+            Text="Convert"
+            x:Name="ConvertButton">
+    </Button>
+    <Label
+            Text="Fahrenheit">
+    </Label>
+    <Entry
+            x:Name="FahrenheitEntry"
+            IsEnabled="False"
+            Placeholder="Degree Fahrenheit...">
+    </Entry>
+    </StackLayout>
+
+</ContentPage>
